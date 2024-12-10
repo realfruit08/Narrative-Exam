@@ -1,0 +1,35 @@
+﻿title: Opal
+tags:
+---
+Jeremy: hello?
+???: meow
+Jeremy: huh, a cat! I love cats. 
+Jeremy: It's nice to see im not alone out here. 
+Jeremy: Whats your name little guy?
+Jeremy: let me just check your collar... 
+Jeremy: Opal?
+Opal: meow! 
+-> Hello opal! nice to meet you!
+    <<jump meeting>>
+-> aww you're so cute! 
+    <<jump cute>>
+===
+title: meeting
+---
+Opal: Nice to meet you too! 
+Jeremy: You speak??
+Opal: meow
+Opal will now follow you around
+Use Arrow kets to control her.
+-> End the dialogue
+===
+title: cute
+---
+Opal: Yes i am aware...
+Jeremy: You can talk? 
+Opal: ...
+Opal: mrow
+Opal will now follow you around
+Use Arrow keys to control her.
+-> End the dialogue
+===

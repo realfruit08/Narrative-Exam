@@ -1,0 +1,88 @@
+﻿title: Hank
+tags:
+---
+???: Oh good, you're awake.
+-> Where am i? 
+    <<jump where>>
+-> Who are you? 
+    <<jump who>>
+===
+title: where
+---
+???: We are in Toronto friend. 
+Jeremy: Toronto? Hmm i suppose that makes sense...
+    <<jump name>> 
+===
+title: who
+---
+???: I am Hank
+Jeremy: Hank! Okay well its nice to meet you! I'm Jeremy. 
+Hank: nice to meet you..
+    <<jump story>>
+===
+title: name
+---
+???: Well anyways, you can call me Hank if you'd like. 
+Jeremy: Okay
+    <<jump story>>
+===
+title: story
+---
+Hank: What about you? 
+Jeremy: I'm Jeremy and.. uh... well im not sure anything other than that actually...
+Hank: hmm
+Hank: I havn't seen anyone like me around here in a while. 
+-> What do you mean? 
+    <<jump explaination>>
+-> cool? 
+    <<jump indifferent>>
+===
+title: explaination
+---
+Hank: Nothing I was just talking about... well... you know...
+Jeremy: I do not know.
+Hank: *sighs*
+Hank: Nevermind
+    <<jump indifferent>>
+===
+title: indifferent
+---
+Hank: Well, I should be getting home
+Jeremy: Wait!
+Hank: What is it? 
+Jeremy: I just woke up not knowing where I was or who I am other than my name and you're just leaving me here? 
+Jeremy: Oh god, do i have a family? or a wife? a job? Who am i? 
+Hank: calm down jeez
+Jeremy: How can I calm down when nothing makes sense? 
+Hank: *sigh*
+Hank: fine... ill help you just stop the drama
+Hank: If you can go get me something i'll help you out.
+Jeremy: Get you something?
+Hank: See that house over there? It's crawling with zombies, I dont like zombies. Grab me some supplies from it and i'll teach you how to survive"
+-> Zombies?!?!
+    <<jump zombies>>
+-> Sure!
+    <<jump okay>>
+===
+title: zombies
+---
+Hank: right, yes, there are zombies. keep up.
+Hank: off you go!
+-> What? No way! I'm not doing that! (skip tutorial)
+    <<jump end1>>
+-> okay?
+    <<jump end2>>
+===
+title: end2
+---
+Hank: that was easier than I thought it would be...
+Hank: Anyways, you can pick up stuff using E and Shift should be run. CTRL is crouch. You'll get more help once you get those supplies. 
+Hank: see you soon...
+-> End the dialogue
+===
+title: end1
+---
+Hank: Well I guess you wont be needing my help then...
+You have decided to skip the tutorial
+-> End the dialogue
+===
